@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <Preference
+        android:key="copyright_key"
+        android:summary="@string/pref_copyright_description"
+        android:title="@string/app_name" />
+
+    <ListPreference
+        android:defaultValue="default"
+        android:entries="@array/action_entires"
+        android:entryValues="@array/action_values"
+        android:key="swipe_up_action"
+        android:summary="@string/swipe_up_action_summary"
+        android:title="@string/swipe_up_action_title" />
+    <ListPreference
+        android:defaultValue="default"
+        android:entries="@array/action_entires"
+        android:entryValues="@array/action_values"
+        android:key="swipe_left_action"
+        android:summary="@string/swipe_left_action_summary"
+        android:title="@string/swipe_left_action_title" />
+    <ListPreference
+        android:defaultValue="default"
+        android:entries="@array/action_entires"
+        android:entryValues="@array/action_values"
+        android:key="swipe_right_action"
+        android:summary="@string/swipe_right_action_summary"
+        android:title="@string/swipe_right_action_title" />
+    <ListPreference
+        android:defaultValue="default"
+        android:entries="@array/action_entires"
+        android:entryValues="@array/action_values"
+        android:key="swipe_down_action"
+        android:summary="@string/swipe_down_action_summary"
+        android:title="@string/swipe_down_action_title" />
+    <ListPreference
+        android:defaultValue="default"
+        android:entries="@array/action_entires"
+        android:entryValues="@array/action_values"
+        android:key="double_tap_action"
+        android:summary="@string/double_tap_action_summary"
+        android:title="@string/double_tap_action_title" />
+    <ListPreference
+        android:defaultValue="default"
+        android:entries="@array/action_entires"
+        android:entryValues="@array/action_values"
+        android:key="camera_action"
+        android:summary="@string/camera_action_summary"
+        android:title="@string/camera_action_title" />
+
+</PreferenceScreen>
